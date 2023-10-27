@@ -176,7 +176,7 @@ a {
   min-height: 142px;
   background-image: url(../img/Adavantages_img.png);
   background-position: left;
-  background-size: 160px 142px;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
