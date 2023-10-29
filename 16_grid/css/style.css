@@ -278,8 +278,7 @@ a {
   margin-bottom: 30px;
 }
 
-.courses__item--img1::before {
-  content: "60 часов";
+.courses__item::before {
   position: absolute;
   top: 10px;
   right: 15px;
@@ -295,45 +294,19 @@ a {
   background-size: 24px 24px;
   background-repeat: no-repeat;
   color: var(--color-light);
+}
+
+.courses__item--img1::before {
+  content: "60 часов";
 }
 
 .courses__item--img2::before,
 .courses__item--img3::before {
   content: "40 часов";
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  display: flex;
-  align-items: center;
-  padding-left: 30px;
-  min-width: 100px;
-  min-height: 24px;
-  font-size: 16px;
-  font-weight: 400;
-  background-image: url(../img/courses_time.svg);
-  background-position: left;
-  background-size: 24px 24px;
-  background-repeat: no-repeat;
-  color: var(--color-light);
 }
 
 .courses__item--img4::before {
   content: "80 часов";
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  display: flex;
-  align-items: center;
-  padding-left: 30px;
-  min-width: 100px;
-  min-height: 24px;
-  font-size: 16px;
-  font-weight: 400;
-  background-image: url(../img/courses_time.svg);
-  background-position: left;
-  background-size: 24px 24px;
-  background-repeat: no-repeat;
-  color: var(--color-light);
 }
 
 .courses__item {
@@ -373,6 +346,7 @@ a {
 }
 
 /* footer */
+
 .footer__top {
   padding: 28px 0;
   background-color: var(--main-color);

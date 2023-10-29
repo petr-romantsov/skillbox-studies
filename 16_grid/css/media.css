@@ -49,8 +49,12 @@
     width: 101%;
   }
 
+  .courses {
+    padding-bottom: 50px;
+  }
+
   .courses__title {
-    margin-bottom: 24px;
+    margin-bottom: 25px;
   }
 
   .courses__item {
@@ -79,6 +83,16 @@
     margin-top: auto;
   }
 
+  .courses__item {
+    min-height: 556px;
+  }
 
+  .courses__link {
+    padding: 20.5px 55px;
+  }
+
+  .courses__item::before {
+    right: 21px;
+  }
 
 }
