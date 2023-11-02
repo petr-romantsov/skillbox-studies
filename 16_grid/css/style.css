@@ -49,6 +49,7 @@ a {
 }
 
 .page {
+  min-width: 320px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
