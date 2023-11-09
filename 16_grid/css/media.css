@@ -224,7 +224,7 @@
 
   .advantages {
     padding-top: 51px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
 
   .advantages__image {
@@ -236,11 +236,8 @@
     line-height: 130%;
   }
 
-  .advantages__bottom {
-    gap: 30px;
-  }
-
   .advantages__item {
+    margin-bottom: 30px;
     padding-top: 0;
     padding-left: 110px;
     background-position: left;
