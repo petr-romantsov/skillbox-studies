@@ -280,8 +280,9 @@ a {
   margin-bottom: 30px;
 }
 
-.courses__item::before {
+.courses__col::before {
   content: "";
+  display: block;
   width: 100%;
   height: 180px;
   background-image: url(../img/courses-img-1.png);
@@ -292,8 +293,8 @@ a {
 
 .courses__item {
   flex-direction: column;
-  justify-content: space-between;
-  border-radius: 21px;
+  min-height: 300px;
+  border-radius: 0 0 21px 21px;
   background-color: var(--white-lilac-color);
 }
 
@@ -333,6 +334,7 @@ a {
 }
 
 .courses__btn-wrapper {
+  margin-top: auto;
   padding: 19px 30px;
 }
 
