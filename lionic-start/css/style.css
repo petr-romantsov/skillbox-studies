@@ -790,3 +790,8 @@ body {
 .social__item:not(:last-child) {
   margin-right: 32px;
 }
+
+.hero__title { 
+  animation: pulse;
+  animation-duration: 1s;
+}
