@@ -37,7 +37,7 @@
   }
 
   .cards {
-    --offsets: 0;
+    --offsets: 1;
   }
 
   .cards__item--big {
@@ -158,6 +158,10 @@
 
   .about-us__text {
     margin-bottom: 59px;
+  }
+
+  .cards {
+    --offsets: 0;
   }
 
   .cards__left {
